@@ -35,7 +35,6 @@ export const _updateConfig = async (config, callback) => {
         if (data.length > 0) {
             return callback(data[0][0].respoonse);
         };
-
         return callback(null);
     });
 }

@@ -10,11 +10,11 @@ const option = dotenv.config({
 });
 
 export const databaseConfig = {
-    HOST : process.env.HOST,
-    USERNAME : process.env.USER,
-    PASSWPRD : process.env.PASSWPRD,
-    DATABASE: process.env.DATABASE,
-    PORT : process.env.PORT,
+    HOST :  "200.52.83.41",
+    USERNAME : "rhchia_admin",
+    PASSWPRD :   "admin@2021",
+    DATABASE:  "rhchia_db_erp",
+    PORT :  3306,
 }
 
 export const serveConfig = {

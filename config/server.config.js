@@ -17,6 +17,7 @@ export const databaseConfig = {
     PORT :  3306,
 }
 
+
 export const serveConfig = {
     PORT_SERVE_API : process.env.PORT_SERVE_API,    
 }
